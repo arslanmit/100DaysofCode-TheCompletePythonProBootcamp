@@ -1,1 +1,14 @@
-len("Hello")
+varx="Hello"
+print(varx[0])
+print("----------------")
+lenx=len(varx)
+print(lenx)
+print("----------------")
+lenx=lenx-1
+print(lenx)
+print("----------------")
+print(varx[lenx])
+print("----------------")
+print(varx[-5])
+print("----------------")
+print(1_123_456_7.0_3)

@@ -5,7 +5,7 @@ print(3 * 2)
 print(5 / 3)
 print(5 // 3)
 print(2 ** 3)
-
+print(1.000001 ** 100000000)
 # PEMDASLR Order
 # ()
 # **

@@ -11,10 +11,10 @@ print(type(3.14))
 print(type(True))
 
 # Type Conversion
-str()
-int()
-float()
-bool()
+print(str(11_1111_1))
+print(int(111))
+print(float(111))
+print(bool(0))
 
 name_of_the_user = input("Enter your name")
 length_of_name = len(name_of_the_user)
