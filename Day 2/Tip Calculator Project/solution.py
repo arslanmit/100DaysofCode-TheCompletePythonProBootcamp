@@ -10,3 +10,6 @@ final_amount = round(bill_per_person, 2)
 print(f"Each person should pay: ${final_amount}")
 
 
+final_amount = "{:.22f}".format(bill_per_person)
+
+print(f"Each person should pay: ${final_amount}")
