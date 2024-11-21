@@ -6,4 +6,25 @@ states_of_america = ["Delaware", "Pennsylvania", "New Jersey", "Georgia", "Conne
                      "North Dakota", "South Dakota", "Montana", "Washington", "Idaho", "Wyoming", "Utah", "Oklahoma",
                      "New Mexico", "Arizona", "Alaska", "Hawaii"]
 
-print(states_of_america)
+print(states_of_america[49])  # No error
+#print(states_of_america[50])  # IndexError
+
+# Using len() to find the number of items in a List
+num_states = len(states_of_america)
+print(num_states)
+print(states_of_america[num_states - 1])
+
+
+# dirty_dozen = ["Strawberries", "Spinach", "Kale", "Nectarines", "Apples", "Grapes", "Peaches", "Cherries", "Pears",
+# "Tomatoes", "Celery", "Potatoes"]
+
+fruits = ["Strawberries", "Nectarines", "Apples", "Grapes", "Peaches", "Cherries", "Pears"]
+vegetables = ["Spinach", "Kale", "Tomatoes", "Celery", "Potatoes"]
+
+dirty_dozen = [fruits, vegetables]
+print(dirty_dozen)
+
+dirty_dozen2=[]
+dirty_dozen2.extend(fruits)
+dirty_dozen2.extend(vegetables)
+print(dirty_dozen2)
