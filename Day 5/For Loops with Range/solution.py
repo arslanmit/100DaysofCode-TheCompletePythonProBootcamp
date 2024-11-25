@@ -10,5 +10,6 @@ for number in range(1, 11):  # Prints 1 to 10
 # Gauss challenge
 total = 0
 for number in range(1, 101):
+    print(total)
     total += number
 print(total)
